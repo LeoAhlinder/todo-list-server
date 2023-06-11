@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todo-list</title>
+  <link rel="stylesheet" href="design.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+<body> 
+ 
+<div id="myDIV" class="header">
+  <h2 style="margin:5px">To Do List</h2>
+  <input type="text" class="textmargin" id="myInput" placeholder="Title...">
+  <span onclick="addTask()"  class="addBtn">Add</span> 
+  <input type="text" id="myLink" placeholder="Link (Opt.)">
+</div>
+
+<!--List--> 
+<ul id="myUL">
+</ul>
+
+<script src="javascript.js">
+</script>
+
+</body>
+</html>

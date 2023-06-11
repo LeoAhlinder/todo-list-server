@@ -1,0 +1,1 @@
+CREATE TABLE test1CREATE TABLE test1 (n1 INT) (n1 INT)
